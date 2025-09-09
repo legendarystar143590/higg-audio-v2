@@ -40,7 +40,7 @@ python3 generation.py \
 --seed 12345 \
 --out_path generation.wav
 ```
-
+python3 examples/generation.py --transcript examples/transcript/single_speaker/hugg_audio_en.txt --ref_audio original_en --seed 12345 --temperature 0.3 --out_path higg_audio_en_v3.wav
 ### Smart voice
 
 The model supports reading the transcript with a random voice.

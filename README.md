@@ -188,7 +188,7 @@ python3 examples/generation.py \
 --out_path generation.wav
 ```
 
-
+ python3 examples/generation.py --transcript examples/transcript/single_speaker/hugg_audio_en.txt --seed 12345 --temperature 0.3 --out_path higg_audio_en_v2.wav
 ### Multi-speaker Dialog with Smart Voice
 Generate multi-speaker dialog. The model will decide the voices based on the transcript it sees.
 
